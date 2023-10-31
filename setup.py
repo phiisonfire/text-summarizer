@@ -1,3 +1,10 @@
+"""
+This script is packaging all Python packages in the “src” directory under the name “textSummarizer”,
+with version 0.0.0,
+and providing some metadata about the package (such as its author, description, and where to find its code).
+"""
+
+# setup.py
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
